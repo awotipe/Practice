@@ -1,0 +1,264 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.Container{
+    width: 100%;
+}
+
+.Container2{
+    width: 100%;
+    margin: auto;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 199, 0.519) 90.5%, rgba(255, 255, 255, 0.22) 100.92%);
+}
+
+.innerContainer{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.backdiv{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space between;
+
+}
+
+.navigation li{
+    list-style-type: none;
+    margin-top: 1rem;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 20px;
+    color: #20262A;
+    padding-right: 3rem; 
+    cursor: pointer;
+}
+
+.navigation li:hover{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    width: 140px;
+    height: 52px;
+    border: 2px solid #00B6F0;
+    border-radius: 85px;
+    background: none;
+    cursor: pointer;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #00B6F0;
+    border-color: #00B6F0;
+}
+
+button:hover{
+    background: #00B6F0;
+    color:  #FFFFFF;
+}
+
+.text{
+   text-align: center;
+}
+
+.text h1{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #112D57;
+    width: 490px;
+    margin: auto;
+    margin-bottom: 1.5rem;
+}
+
+.text p{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+    width: 524px;
+    margin: auto;
+}
+
+.btn{
+    text-align: center;
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+.hero{
+    margin-top: 5rem;
+}
+
+.btn1{
+    text-align: center;
+    cursor: pointer;
+    background: #00B6F0;
+    color: #FFFF;
+    margin-right: 1rem;
+    width: 192px;
+    height: 52px;
+}
+
+.btn1:hover{
+    background: #FFFF;
+    color:  #00B6F0;
+}
+
+.btn2{
+    text-align: center;
+    cursor: pointer;
+    color: #20262A;
+    border: #00B6F0;
+    background: #FFFF;
+    width: 192px;
+    height: 52px;
+}
+
+.btn2:hover{
+    background: #FFFF;
+    color:  #00B6F0;
+    border:2px  solid #00B6F0;
+}
+
+.blue{
+    left: 0;
+    margin-left: -4rem;
+}
+
+.yellow{
+    right: 0;
+    margin-top: 8rem;
+    margin-right: -4rem;
+    
+}
+
+.images{
+    margin-top: -22rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.graph{
+    margin-top: -22rem;
+    width: 90%;
+    margin-left: -2.5rem;
+}
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+    margin: auto;
+}
+
+.screen{
+    background-image: url(./images/Frame.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.screen>img{
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.text3{
+    width: 30%;
+    margin-top: 9rem;
+}
+
+.text3 h2{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1px;
+    color: #20262A;
+    margin-bottom: 1.5rem;
+}
+
+.text3 p{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+    margin-bottom: 1.5rem;
+}
+
+.text3 span{
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #00B6F0;
+    cursor: pointer;
+}
+
+.rethink{
+    margin-top: 4rem;
+    margin-bottom: 4rem;;
+}
+
+.line{
+    display: flex;
+}
+
+.line1{
+    width: 230px;
+    height: 15px;
+    background: #00B6F0;
+    border-radius: 9.5px;
+    margin-right: -1.5rem;
+    position: relative;
+}
+
+.line2{
+    width: 230px;
+    height: 15px;
+    background: #F3F5F8;
+    border-radius: 9.5px;
+    border-width: 2px #00B6F0;
+    
+}
